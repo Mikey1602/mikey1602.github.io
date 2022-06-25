@@ -17,7 +17,7 @@ body {
 
 .wrapper {
   position: absolute;
-  width: 1200px;
+  width: 100%;
   margin: auto;
   top: 0;
   left: 0;
@@ -290,7 +290,7 @@ body {
 
 .solar-system-title {
   position: absolute;
-  width: 400px;
+  width: 100%;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px;
   border-radius: 10px;
@@ -298,12 +298,11 @@ body {
   color: white;
   font-size: 14px;
   text-align: center;
-  border: 1px solid white;
 }
 .solar-system-info {
   position: absolute;
   width: 400px;
-  bottom: 0px;
+  bottom: 50px;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px;
   border-radius: 10px;
@@ -332,7 +331,7 @@ body {
 
 .gui {
   position: absolute;
-  margin-left: 1100px;
+
   margin-top: 350px;
   width: 500px;
   height: 300px;
@@ -358,6 +357,7 @@ body {
   font-size: 20px;
   text-align: center;
   cursor: pointer;
+  border: 1px solid white;
 }
 .gui h1 {
   margin: 20px 0;
