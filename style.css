@@ -310,6 +310,7 @@ body {
   color: white;
   font-size: 14px;
   text-align: center;
+  border: 1px solid white;
 }
 .solar-system-info span.ys {
   background: green;
@@ -341,6 +342,7 @@ body {
   z-index: 0;
   padding: 20px;
   color: white;
+  
 }
 .gui span.close-gui {
   width: 30px;
