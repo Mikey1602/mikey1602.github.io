@@ -298,6 +298,7 @@ body {
   color: white;
   font-size: 14px;
   text-align: center;
+  border: 1px solid white;
 }
 .solar-system-info {
   position: absolute;
@@ -342,6 +343,7 @@ body {
   z-index: 0;
   padding: 20px;
   color: white;
+  border: 1px solid white;
   
 }
 .gui span.close-gui {
