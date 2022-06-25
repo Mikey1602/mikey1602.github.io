@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Solar System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<body onload="start();">
+  <div class="stars-bg"></div>
+  <div class="wrapper">
+    <div class="gui">
+      <span class="close-gui" onclick="rev.closeGUI();">&#10006;</span>
+      <h1></h1>
+      <p></p>
+      <div class="ab-year"></div>
+    </div>
+    <div class="solar-system-title">
+      <h1>The Solar System</h1>
+    </div>
+    <div class="solar-system-info">
+      <p>One year is equal to <span class="ys"></span>.
+        You can change that time below in the input field.
+        You can click on the sun or on any orbit for additional information.
+      </p>
+      <label for="year-in-seconds">Change the year in seconds</label>
+      <input id="year-in-seconds" type="number" min="0" max="1000" value="365" oninput="rev.changeYS();">
+    </div>
+    <div class="orbit sun"></div>
+    <div class="orbit mercury-orbit">
+      <div class="planet mercury"></div>
+    </div>
+    <div class="orbit venus-orbit">
+      <div class="planet venus"></div>
+    </div>
+    <div class="orbit earth-orbit">
+      <div class="planet earth"></div>
+      <div class="orbit moon-orbit">
+        <div class="moon"></div>
+      </div>
+    </div>
+    <div class="orbit mars-orbit">
+      <div class="planet mars"></div>
+    </div>
+    <div class="orbit jupiter-orbit">
+      <div class="planet jupiter"></div>
+    </div>
+    <div class="orbit saturn-orbit">
+      <div class="planet saturn"></div>
+    </div>
+    <div class="orbit uranus-orbit">
+      <div class="planet uranus"></div>
+    </div>
+    <div class="orbit neptune-orbit">
+      <div class="planet neptune"></div>
+    </div>
+  </div>
+
+  <script src="assets/script/main.js" charset="utf-8"></script>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
